@@ -151,6 +151,7 @@ mod tests {
     use crate::generation::get_world_gen;
     use crate::generation::proto_chunk::GenerationCache;
     use crate::world::BlockRegistryExt;
+    use pumpkin_data::chunk_gen_settings::GenerationSettings;
     use pumpkin_data::dimension::Dimension;
     use pumpkin_util::world_seed::Seed;
     use std::sync::Arc;
